@@ -1,0 +1,257 @@
+[09-Jun-2020 06:09:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:09:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:09:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:09:25 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:22:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'aiepnet_root'@'127.0.0.1' (using password: YES) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:22:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:22:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:22:22 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:23:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'aiepnet_root'@'127.0.0.1' (using password: YES) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:23:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:23:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:23:07 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:24:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'aiepnet_root'@'127.0.0.1' (using password: YES) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:24:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:24:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:24:00 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:26:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'aiepnet_root'@'127.0.0.1' (using password: YES) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:26:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:26:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:26:38 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:42:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'aiepnet_root'@'127.0.0.1' (using password: YES) in /home/aiepnet/public_html/f_buscar/ajax.php on line 23
+[09-Jun-2020 06:42:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet/public_html/f_buscar/ajax.php on line 27
+[09-Jun-2020 06:42:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet/public_html/f_buscar/ajax.php on line 28
+[09-Jun-2020 06:42:28 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 06:52:00 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet/public_html/f_buscar/ajax.php on line 31
+[09-Jun-2020 18:47:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/aiepnet1/public_html/f_buscar/ajax.php on line 38
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Undefined variable: depto in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:34:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:25 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 19:50:54 UTC] PHP Notice:  Undefined index: id_patente in /home/aiepnet1/public_html/f_buscar/ajax.php on line 37
+[09-Jun-2020 21:59:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 21:59:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 21:59:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 21:59:52 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 21:59:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 21:59:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 21:59:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 21:59:58 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:00:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:00:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:00:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:00:36 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:03:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:03:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:03:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:03:52 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:04:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:04:48 UTC] PHP Notice:  Undefined index: codigo in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:04:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:04:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:04:48 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:05:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:05:54 UTC] PHP Notice:  Undefined index: codigo in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:05:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:05:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:05:54 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:06:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:06:52 UTC] PHP Notice:  Undefined index: codigo in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:06:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:06:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:06:52 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:09:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:09:25 UTC] PHP Notice:  Undefined index: codigo in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:09:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:09:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:09:25 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:10:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:10:02 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:10:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:10:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:10:02 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:13:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:13:16 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:13:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:13:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:13:16 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:13:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:13:37 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:13:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:13:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:13:37 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:13:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:13:41 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:13:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:13:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:13:41 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:13:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:13:50 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:13:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:13:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:13:50 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:14:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:14:15 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:14:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:14:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:14:15 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:14:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:14:21 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:14:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:14:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:14:21 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:14:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:14:39 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:14:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:14:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:14:39 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:15:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:15:41 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:15:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:15:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:15:41 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:17:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:17:13 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:17:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:17:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:17:13 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:17:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:17:53 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:17:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:17:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:17:53 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 31
+[09-Jun-2020 22:21:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 23
+[09-Jun-2020 22:21:07 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 26
+[09-Jun-2020 22:21:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 27
+[09-Jun-2020 22:21:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 28
+[09-Jun-2020 22:21:07 UTC] PHP Notice:  Undefined variable: arr in /home/aiepnet1/public_html/f_buscar/bus_reserva.php on line 32
+[09-Jun-2020 22:36:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 23
+[09-Jun-2020 22:36:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 27
+[09-Jun-2020 22:36:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 28
+[09-Jun-2020 22:36:20 UTC] PHP Notice:  Undefined variable: arr1 in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 31
+[09-Jun-2020 22:37:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 23
+[09-Jun-2020 22:37:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 27
+[09-Jun-2020 22:37:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 28
+[09-Jun-2020 22:37:08 UTC] PHP Notice:  Undefined variable: arr1 in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 31
+[09-Jun-2020 22:37:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 23
+[09-Jun-2020 22:37:46 UTC] PHP Notice:  Undefined index: borrar in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 26
+[09-Jun-2020 22:37:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 27
+[09-Jun-2020 22:37:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 28
+[09-Jun-2020 22:37:46 UTC] PHP Notice:  Undefined variable: arr1 in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 31
+[09-Jun-2020 22:38:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'aiepnet1_root'@'localhost' (using password: NO) in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 23
+[09-Jun-2020 22:38:06 UTC] PHP Notice:  Undefined index: borrar in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 26
+[09-Jun-2020 22:38:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 27
+[09-Jun-2020 22:38:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 28
+[09-Jun-2020 22:38:06 UTC] PHP Notice:  Undefined variable: arr1 in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 31
+[09-Jun-2020 22:53:17 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/ajax.php on line 45
+[09-Jun-2020 22:58:12 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/ajax.php on line 45
+[10-Jun-2020 18:14:58 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:16:21 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:17:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:17:47 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:20:18 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:21:00 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:27:15 UTC] PHP Fatal error:  Cannot use [] for reading in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 31
+[10-Jun-2020 18:52:17 UTC] PHP Notice:  Undefined variable: empresa in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 71
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined index: codigo1 in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 27
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: empresa in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 40
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: empresa in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 44
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: telefono in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 49
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 52
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 57
+[10-Jun-2020 18:56:36 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/buscar_proveedor.php on line 60
+[10-Jun-2020 19:16:10 UTC] PHP Notice:  Undefined variable: arr1 in /home/aiepnet1/public_html/f_buscar/bus_borrar_reserva.php on line 32
+[16-Jun-2020 19:39:12 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 56
+[16-Jun-2020 19:39:12 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 61
+[16-Jun-2020 19:39:12 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 64
+[16-Jun-2020 19:40:18 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 56
+[16-Jun-2020 19:40:18 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 61
+[16-Jun-2020 19:40:18 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 64
+[16-Jun-2020 19:41:09 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 64
+[16-Jun-2020 19:41:09 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 69
+[16-Jun-2020 19:41:09 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 72
+[16-Jun-2020 19:42:18 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 65
+[16-Jun-2020 19:42:18 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 70
+[16-Jun-2020 19:42:18 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 73
+[16-Jun-2020 19:47:47 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 74
+[16-Jun-2020 19:47:47 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 79
+[16-Jun-2020 19:47:47 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 19:50:29 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 74
+[16-Jun-2020 19:50:29 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 79
+[16-Jun-2020 19:50:29 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:02:06 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 75
+[16-Jun-2020 20:02:06 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 80
+[16-Jun-2020 20:02:06 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 83
+[16-Jun-2020 20:03:17 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 20:03:17 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:03:17 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 20:05:11 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 20:05:11 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:05:11 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 20:06:07 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 20:06:07 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:06:07 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 20:06:59 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 20:06:59 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:06:59 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 20:07:16 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 20:07:16 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 20:07:16 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 20:56:20 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 81
+[16-Jun-2020 20:56:48 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 81
+[16-Jun-2020 20:57:34 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 81
+[16-Jun-2020 20:59:53 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 60
+[16-Jun-2020 21:00:15 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 61
+[16-Jun-2020 21:01:08 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 62
+[16-Jun-2020 21:01:48 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 65
+[16-Jun-2020 21:02:37 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 69
+[16-Jun-2020 21:03:05 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 69
+[16-Jun-2020 21:03:19 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 21:03:19 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 21:03:19 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 21:03:58 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 69
+[16-Jun-2020 21:04:31 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 73
+[16-Jun-2020 21:05:11 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 73
+[16-Jun-2020 21:06:38 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 74
+[16-Jun-2020 21:08:35 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 74
+[16-Jun-2020 21:09:34 UTC] PHP Notice:  Undefined variable: id in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 33
+[16-Jun-2020 21:09:34 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 78
+[16-Jun-2020 21:11:06 UTC] PHP Notice:  Undefined variable: auto in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 73
+[16-Jun-2020 21:11:06 UTC] PHP Notice:  Undefined variable: tipo in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 73
+[16-Jun-2020 21:11:06 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 81
+[16-Jun-2020 21:11:32 UTC] PHP Notice:  Undefined variable: auto in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 72
+[16-Jun-2020 21:11:32 UTC] PHP Notice:  Undefined variable: tipo in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 72
+[16-Jun-2020 21:11:32 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 80
+[16-Jun-2020 21:12:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 82
+[16-Jun-2020 21:13:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 82
+[16-Jun-2020 21:13:38 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:13:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 85
+[16-Jun-2020 21:14:19 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:23:02 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:24:08 UTC] PHP Notice:  Undefined variable: email in /home/aiepnet1/public_html/f_buscar/cliente.php on line 77
+[16-Jun-2020 21:24:08 UTC] PHP Notice:  Undefined variable: dir in /home/aiepnet1/public_html/f_buscar/cliente.php on line 82
+[16-Jun-2020 21:24:08 UTC] PHP Notice:  Undefined variable: cont in /home/aiepnet1/public_html/f_buscar/cliente.php on line 85
+[16-Jun-2020 21:24:41 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:30:43 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:30:56 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:32:13 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77
+[16-Jun-2020 21:33:39 UTC] PHP Notice:  Undefined variable: cod in /home/aiepnet1/public_html/f_buscar/bus_vehiculo.php on line 77

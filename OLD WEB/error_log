@@ -1,0 +1,7 @@
+[16-Jun-2020 18:17:41 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/aiepnet1/public_html/index.php on line 135
+[16-Jun-2020 18:25:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/aiepnet1/public_html/index.php on line 136
+[16-Jun-2020 18:26:29 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ')' in /home/aiepnet1/public_html/index.php on line 136
+[16-Jun-2020 18:26:30 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ')' in /home/aiepnet1/public_html/index.php on line 136
+[16-Jun-2020 18:26:56 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ')' in /home/aiepnet1/public_html/index.php on line 136
+[16-Jun-2020 18:26:57 UTC] PHP Parse error:  syntax error, unexpected 'alert' (T_STRING), expecting ')' in /home/aiepnet1/public_html/index.php on line 136
+[16-Jun-2020 18:33:35 UTC] PHP Parse error:  syntax error, unexpected 'location' (T_STRING), expecting ';' or ',' in /home/aiepnet1/public_html/index.php on line 106
