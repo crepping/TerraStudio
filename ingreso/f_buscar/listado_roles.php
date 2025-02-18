@@ -24,7 +24,7 @@ $salida = "<table id='roles' class='display table table-striped table-bordered' 
 
 $query = "SELECT rol.id_rol, rol.numero_rol, rol.ubicacion, cliente.id_cliente, cliente.rut_cliente, cliente.nombres, cliente.apellidos, rol.fecha_rol
           FROM rol
-          JOIN cliente ON rol.id_cliente = cliente.id_cliente";
+          JOIN cliente ON rol.id_cliente = cliente.id_cliente order by rol.id_rol DESC";
 
 $resultado = $mysqli->query($query);
 

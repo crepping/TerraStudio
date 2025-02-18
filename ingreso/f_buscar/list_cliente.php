@@ -6,7 +6,7 @@ $salida ="";
 $query ="select *from cliente";
 if (isset($_POST['consulta'])) {
 	$q = $mysqli->real_escape_string($_POST['consulta']);
-	$query = "select * from cliente";
+	$query = "select * from cliente ORDER BY id_cliente DESC";
 }
 $resultado = $mysqli->query($query);
 if ($resultado->num_rows >0){

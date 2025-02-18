@@ -21,7 +21,6 @@ include ("../login/session.php");
     <?php
 			include "navbar/navbar.php";
       ?>
-
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
 
@@ -54,13 +53,13 @@ include ("../login/session.php");
             </div>-->
           </div>
         </nav>
-        <h2 class="mb-4">Listado Roles por Cliente</h2>
+        <h2 class="mb-4">Ingreso Proyecto Regularizacion</h2>
        
               <br>
               <hr>
               <table class="table table-bordered" id="" width="100%" cellspacing="0">
                   <thead>
-                    <?php include 'f_buscar/listado_roles.php'?>
+                    <?php include 'f_buscar/buscar_rol.php'?>
                   </tbody>
                 </table>
    
@@ -70,33 +69,70 @@ include ("../login/session.php");
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modificar Rol</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Ingresar Proyecto Fusion</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Modificar.
-        <form class="form-horizontal" id="formulario" method="POST" action="f_modificar/mod_rol.php">
-        <div class="form-group">
+        <div class="modal-body">Ingresar.
+        <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_fusion.php">
+    <div class="form-group">
         <div class="col-sm-6">
-        <input type="hidden" class="form-control form-control-user" id="cod" name="cod" required>    
+            <input type="text" class="form-control form-control-user" id="cod" name="cod" required>  
+            <input type="text" class="form-control form-control-user" id="id_cliente" name="cliente" required>  
         </div>    
-        <div class="form-group">
-        <label class="control-label col-sm-4" >NUMERO ROL:</label>
-        <div class="col-sm-6">          
-        <input type="text" class="form-control" id="name" placeholder="Ejemplo: 605-2" name="rol" required>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
+            <label class="form-check-label" for="check1">
+                Fotocopia titulo de Dominio
+            </label>
         </div>
-</div>
-        <div class="form-group">
-        <label class="control-label col-sm-4" >UBICACION:</label>
-        <div class="col-sm-6">          
-        <input type="text" class="form-control" id="name" placeholder="Ingresar Ubicacion del predio" name="direccion" required>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
+            <label class="form-check-label" for="check2">
+                Fotocopia de Incripción
+            </label>
         </div>
-                 <BR>
-                 <BR>
-                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                 <button class="btn btn-primary" type="submit" id="btnEnviar" name="btnEnviar">Modificar</button>
-        </form>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
+            <label class="form-check-label" for="check3">
+                Fotocopia de Certificado Numero
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="1" id="check4">
+            <label class="form-check-label" for="check4">
+                Fotocopia Certificado Dominio
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
+            <label class="form-check-label" for="check5">
+                Fotocopia Cedula
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
+            <label class="form-check-label" for="check6">
+                Poder Notarial
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion7]" value="1" id="check7">
+            <label class="form-check-label" for="check7">
+                Certificado detallado SII
+            </label>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" rows="3" required></textarea>
+        </div>
+        <BR><BR>
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+        <button class="btn btn-primary" type="submit" id="btnEnviar" name="btnEnviar">Ingresar Proyecto</button>
+    </div>
+</form>
         <HR>
         <p class="respuesta">
         <BR>
@@ -143,21 +179,12 @@ include ("../login/session.php");
  $('.product1').click(function(event){
   event.preventDefault();
   var borrar = $(this).attr('codigo1');
+  var borrar1 = $(this).attr('codigo2');
   var action = 'infoProducto1';
   $('#cod').val(borrar);
-  //alert(borrar);
- });
- </script>
- <script type="text/javascript">
- $('.product2').click(function(event){
-  event.preventDefault();
-  var borrar = $(this).attr('codigo2');
-  var borrar1 = $(this).attr('codigo3');
-  var action = 'infoProducto2';
-  $('#id_rol').val(borrar);
   $('#id_cliente').val(borrar1);
-  alert(borrar);
-  alert(borrar1);
+  //alert(borrar);
+  //alert(borrar1);
  });
  </script>
   <script>
@@ -210,6 +237,7 @@ include ("../login/session.php");
 <script>
 $(document).ready(function() {
   new DataTable('#roles', {
+    order: [[0, 'desc']],
     language: {
       "searchBuilder": {
         "add": "Añadir condición",
