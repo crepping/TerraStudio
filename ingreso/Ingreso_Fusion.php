@@ -14,6 +14,27 @@ include ("../login/session.php");
     <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
     <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
     <!--<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>-->
+    <style>
+      .form-check {
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-check:hover {
+    background-color: #f8f9fa; /* Efecto al pasar el mouse */
+}
+
+.form-check-input {
+    margin-right: 10px;
+    transform: scale(1.2); /* Hace que los checkboxes sean más grandes */
+}
+
+.card {
+    border-left: 4px solid #007bff; /* Línea de color para resaltar la sección */
+}
+
+    </style>
   </head>
   <body>
 		
@@ -74,56 +95,58 @@ include ("../login/session.php");
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Ingresar.
+        <div class="modal-body">
         <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_fusion.php">
-    <div class="form-group">
+    <!--<div class="form-group">
         <div class="col-sm-6">
             <input type="text" class="form-control form-control-user" id="cod" name="cod" required>  
             <input type="text" class="form-control form-control-user" id="id_cliente" name="cliente" required>  
-        </div>    
+        </div>-->
 
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
-            <label class="form-check-label" for="check1">
-                Fotocopia titulo de Dominio
-            </label>
+        <div class="card p-3 shadow-sm">
+    <h5 class="mb-3 text-primary">Documentos Requeridos</h5>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
+                <label class="form-check-label" for="check1">Fotocopia Título de Dominio</label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
+                <label class="form-check-label" for="check2">Fotocopia de Inscripción</label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
+                <label class="form-check-label" for="check3">Fotocopia de Certificado Número</label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="1" id="check4">
+                <label class="form-check-label" for="check4">Fotocopia Certificado Dominio</label>
+            </div>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
-            <label class="form-check-label" for="check2">
-                Fotocopia de Incripción
-            </label>
+
+        <div class="col-md-6">
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
+                <label class="form-check-label" for="check5">Fotocopia Cédula</label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
+                <label class="form-check-label" for="check6">Poder Notarial</label>
+            </div>
+
+            <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" name="opciones[opcion7]" value="1" id="check7">
+                <label class="form-check-label" for="check7">Certificado detallado SII</label>
+            </div>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
-            <label class="form-check-label" for="check3">
-                Fotocopia de Certificado Numero
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="1" id="check4">
-            <label class="form-check-label" for="check4">
-                Fotocopia Certificado Dominio
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
-            <label class="form-check-label" for="check5">
-                Fotocopia Cedula
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
-            <label class="form-check-label" for="check6">
-                Poder Notarial
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="opciones[opcion7]" value="1" id="check7">
-            <label class="form-check-label" for="check7">
-                Certificado detallado SII
-            </label>
-        </div>
+    </div>
+</div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" rows="3" required></textarea>

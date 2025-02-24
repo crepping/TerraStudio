@@ -42,7 +42,6 @@ include ("../login/session.php");
     <?php
 			include "navbar/navbar.php";
       ?>
-
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
 
@@ -91,13 +90,13 @@ include ("../login/session.php");
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ingresar Proyecto Regularizacion</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Ingresar Proyecto Subdivición</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">
-        <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_regularizacion.php">
+        <div class="modal-body ">
+        <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_subdivicion.php">
         <div class="form-group">
     <!--<div class="col-sm-6 mb-3">
         <input type="text" class="form-control form-control-user" id="cod" name="cod" placeholder="Código" required>  
@@ -109,54 +108,37 @@ include ("../login/session.php");
     <div class="card p-3 shadow-sm">
         <h5 class="mb-3 text-primary">Documentos Requeridos</h5>
         
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
-                    <label class="form-check-label" for="check1">Fotocopia Título de Dominio</label>
-                </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
+            <label class="form-check-label" for="check1">Fotocopia Rol Evaluo</label>
+        </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
-                    <label class="form-check-label" for="check2">Fotocopia de Inscripción</label>
-                </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
+            <label class="form-check-label" for="check2">Fotocopia de Escritura</label>
+        </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
-                    <label class="form-check-label" for="check3">Fotocopia de Certificado Número</label>
-                </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
+            <label class="form-check-label" for="check3">Fotocopia de Cédula de Identidad</label>
+        </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="1" id="check4">
-                    <label class="form-check-label" for="check4">Fotocopia Cédula de Identidad</label>
-                </div>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="1" id="check4">
+            <label class="form-check-label" for="check4">Fotocopia Certificado Rural</label>
+        </div>
 
-            <div class="col-md-6">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
-                    <label class="form-check-label" for="check5">Fotocopia Área de Propiedad</label>
-                </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
+            <label class="form-check-label" for="check5">Fotocopia de Certificado de Dominio</label>
+        </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
-                    <label class="form-check-label" for="check6">Fotocopia Obras Municipales</label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion7]" value="1" id="check7">
-                    <label class="form-check-label" for="check7">Fotocopia Informe Técnico</label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="opciones[opcion8]" value="1" id="check8">
-                    <label class="form-check-label" for="check8">Ingreso Municipal</label>
-                </div>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
+            <label class="form-check-label" for="check6">Copia Certificado de Previas</label>
         </div>
     </div>
 </div>
-
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" rows="3" required></textarea>
@@ -300,7 +282,6 @@ $(document).ready(function() {
       "paginate": { "first": "Primero", "last": "Último", "next": "Siguiente", "previous": "Anterior" }
     }
   });
-  order: [[3, 'asc']]
 });
 </script>
 </body>
