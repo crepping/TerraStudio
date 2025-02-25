@@ -42,7 +42,7 @@
             </a>
             <ul class="collapse list-unstyled" id="submenuProyectos">
                 <li>
-                    <a href="Ingreso_Proyecto.php"><span class="fa fa-folder-open"></span> Vista Regularización</a>
+                    <a href="Vista_Regularizacion.php"><span class="fa fa-folder-open"></span> Vista Regularización</a>
                 </li>
                 <li>
                     <a href="Ingreso_Fusion.php"><span class="fa fa-users"></span> Vista Fusión</a>
