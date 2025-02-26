@@ -159,9 +159,12 @@ $('#Ingreso2').on('show.bs.modal', function (event) {
    $('.product1').click(function(event){
     event.preventDefault();
     var borrar = $(this).attr('codigo1');
+    var borrar1 = $(this).attr('codigo2');
     var action = 'infoProducto1';
-    $('#cod').val(borrar);
-    //alert(borrar);
+    //$('#cod').val(borrar);
+    alert(borrar);
+    alert(borrar1);
+
    });
    </script>
    <script>
@@ -252,7 +255,7 @@ $('#Ingreso2').on('show.bs.modal', function (event) {
           title: 'Regularizacion Clientes',
           className: 'btn btn-success',
           exportOptions: {
-            columns: [0,1,2,3,4,5,6,7,8,9,10,11,12,12,13,14, 15, 16], // Especifica las columnas manualmente por su índice
+            columns: [1,2,3,4,5,6,7,8,9,10,11,12,12,13,14, 15, 16], // Especifica las columnas manualmente por su índice
           },
           customize: function(xlsx) {
             var sheet = xlsx.xl.worksheets['Regularizacion_Cliente.xml'];

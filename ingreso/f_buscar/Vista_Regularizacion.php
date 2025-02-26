@@ -52,6 +52,7 @@ if (!$mysqli) {
 
 $salida = "
                 <tr>
+                  <th>Editar</th>
                     <th>ID Regulatorio</th>
                     <th>Fecha Ingreso</th>
                     <th>Rol</th>
@@ -86,6 +87,7 @@ $query = "SELECT
     r.f_obrasmunicipales,
     r.informe_tecnico,
     r.ingreso_municipalidad,
+    c.id_cliente,
     c.rut_cliente,
     c.nombres,
     c.apellidos,
@@ -117,6 +119,12 @@ if ($resultado && $resultado->num_rows > 0) {
 
         // Agregar las filas a la salida
         $salida .= "<tr>
+                        <td class='center'>
+                            <a class='btn btn-success product1' codigo1='".htmlspecialchars($fila['id_regularizar'])."' codigo2='".htmlspecialchars($fila['id_cliente'])."' data-toggle='modal' data-target='#Ingreso1'>
+                                <i class='fa fa-edit'></i>
+                            </a>
+                        </td>
+                        </td>
                         <td>".htmlspecialchars($fila['id_regularizar'])."</td>
                         <td>".$fechaFormateada."</td>
                         <td>".htmlspecialchars($fila['numero_rol'])."</td>
