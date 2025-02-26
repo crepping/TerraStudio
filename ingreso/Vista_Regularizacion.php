@@ -75,32 +75,74 @@ include ("../login/session.php");
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ingresar Rol</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Modificar Regularizacion</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Ingreso de ROL.
-        <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_rol.php">
+        <div class="modal-body">Regularizacion
+        <form class="form-horizontal" id="formulario" method="POST" action="f_modificar/mod_regularizacion.php">
         <div class="form-group">
         <div class="col-sm-6">
         <input type="hidden" class="form-control form-control-user" id="cod" name="cod" required>    
         </div>    
-        <div class="form-group">
-        <label class="control-label col-sm-4" >NUMERO ROL:</label>
-        <div class="col-sm-6">          
-        <input type="text" class="form-control" id="name" placeholder="Ejemplo: 605-2" name="rol" required>
+        <div class="card p-3 shadow-sm">
+        <h5 class="mb-3 text-primary">Documentos Requeridos</h5>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion1]" value="1" id="check1">
+                    <label class="form-check-label" for="check1">Fotocopia Título de Dominio</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion2]" value="1" id="check2">
+                    <label class="form-check-label" for="check2">Fotocopia de Inscripción</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion3]" value="1" id="check3">
+                    <label class="form-check-label" for="check3">Fotocopia de Certificado Número</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion4]" value="cedula" id="check4">
+                    <label class="form-check-label" for="check4">Fotocopia Cédula de Identidad</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion5]" value="1" id="check5">
+                    <label class="form-check-label" for="check5">Fotocopia Área de Propiedad</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion6]" value="1" id="check6">
+                    <label class="form-check-label" for="check6">Fotocopia Obras Municipales</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion7]" value="1" id="check7">
+                    <label class="form-check-label" for="check7">Fotocopia Informe Técnico</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="opciones[opcion8]" value="1" id="check8">
+                    <label class="form-check-label" for="check8">Ingreso Municipal</label>
+                </div>
+            </div>
         </div>
+    </div>
 </div>
-        <div class="form-group">
-        <label class="control-label col-sm-4" >UBICACION:</label>
-        <div class="col-sm-6">          
-        <input type="text" class="form-control" id="name" placeholder="Ingresar Ubicacion del predio" name="direccion" required>
+<div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="com" name="com" rows="3" required></textarea>
         </div>
                  <BR>
                  <BR>
                  <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                 <button class="btn btn-primary" type="submit" id="btnEnviar" name="btnEnviar">Ingresar Rol</button>
+                 <button class="btn btn-primary" type="submit" id="btnEnviar" name="btnEnviar">Modificar Regularizacion</button>
         </form>
         <HR>
         <BR>
@@ -159,12 +201,59 @@ $('#Ingreso2').on('show.bs.modal', function (event) {
    $('.product1').click(function(event){
     event.preventDefault();
     var borrar = $(this).attr('codigo1');
-    var borrar1 = $(this).attr('codigo2');
+    var titulo = $(this).attr('titulo');
+    var incrip = $(this).attr('incrip');
+    var cnumero = $(this).attr('cnumero');
+    var cedula = $(this).attr('cedula');
+    var area = $(this).attr('area');
+    var obras = $(this).attr('obras');
+    var iftecnico = $(this).attr('iftecnico');
+    var mun = $(this).attr('mun');
+    var com = $(this).attr('com');
+    //var borrar1 = $(this).attr('codigo2');
     var action = 'infoProducto1';
-    //$('#cod').val(borrar);
-    alert(borrar);
-    alert(borrar1);
-
+    $('#cod').val(borrar);
+    $('#com').val(com);
+    if (titulo == 1) {
+        $('#check1').prop('checked', true);
+    } else {
+        $('#check1').prop('checked', false);
+    }
+    if (incrip == 1) {
+        $('#check2').prop('checked', true);
+    } else {
+        $('#check2').prop('checked', false);
+    }
+    if (cnumero == 1) {
+        $('#check3').prop('checked', true);
+    } else {
+        $('#check3').prop('checked', false);
+    }
+    if (cedula == 1) {
+        $('#check4').prop('checked', true);
+    } else {
+        $('#check4').prop('checked', false);
+    }
+    if (area == 1) {
+        $('#check5').prop('checked', true);
+    } else {
+        $('#check5').prop('checked', false);
+    }
+    if (obras == 1) {
+        $('#check6').prop('checked', true);
+    } else {
+        $('#check6').prop('checked', false);
+    }
+    if (iftecnico == 1) {
+        $('#check7').prop('checked', true);
+    } else {
+        $('#check7').prop('checked', false);
+    }
+    if (mun == 1) {
+        $('#check8').prop('checked', true);
+    } else {
+        $('#check8').prop('checked', false);
+    }
    });
    </script>
    <script>

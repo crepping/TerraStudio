@@ -70,6 +70,7 @@ $salida = "
                     <th>Email:</th>
                     <th>Telefono: </th>
                     <th>Atendido: </th>
+                    <th>Comentario: </th>
                 </tr>
             </thead>
             <tbody>";
@@ -95,6 +96,7 @@ $query = "SELECT
     c.telefono,
     c.ubicacion AS ubicacion_cliente,
     c.profesional,
+    r.comentarios,
     r.estado
 FROM regularizacion r
 LEFT JOIN rol rl ON r.id_rol = rl.id_rol
@@ -120,7 +122,7 @@ if ($resultado && $resultado->num_rows > 0) {
         // Agregar las filas a la salida
         $salida .= "<tr>
                         <td class='center'>
-                            <a class='btn btn-success product1' codigo1='".htmlspecialchars($fila['id_regularizar'])."' codigo2='".htmlspecialchars($fila['id_cliente'])."' data-toggle='modal' data-target='#Ingreso1'>
+                            <a class='btn btn-success product1' codigo1='".htmlspecialchars($fila['id_regularizar'])."' titulo='".htmlspecialchars($fila['f_titulodominio'])."' incrip='".htmlspecialchars($fila['f_incripcion'])."' cnumero='".htmlspecialchars($fila['f_certificadonumero'])."' cedula='".htmlspecialchars($fila['f_cedula'])."' area='".htmlspecialchars($fila['f_areapropiedad'])."' obras='".htmlspecialchars($fila['f_obrasmunicipales'])."' iftecnico='".htmlspecialchars($fila['informe_tecnico'])."' mun='".htmlspecialchars($fila['ingreso_municipalidad'])."' com='".htmlspecialchars($fila['comentarios'])."' data-toggle='modal' data-target='#Ingreso1'>
                                 <i class='fa fa-edit'></i>
                             </a>
                         </td>
@@ -142,6 +144,7 @@ if ($resultado && $resultado->num_rows > 0) {
                         <td>".htmlspecialchars($fila['email'])."</td>
                         <td>".htmlspecialchars($fila['telefono'])."</td>
                         <td>".htmlspecialchars($fila['profesional'])."</td>
+                        <td>".htmlspecialchars($fila['comentarios'])."</td>
                     </tr>";    
     }
 } else {
