@@ -99,12 +99,12 @@ include ("../login/session.php");
         <div class="modal-body">
         <form class="form-horizontal" id="formulario" method="POST" action="f_guardar/ingreso_regularizacion.php">
         <div class="form-group">
-    <!--<div class="col-sm-6 mb-3">
-        <input type="text" class="form-control form-control-user" id="cod" name="cod" placeholder="Código" required>  
+    <div class="col-sm-6 mb-3">
+        <input type="hidden" class="form-control form-control-user" id="cod" name="cod" placeholder="Código" required>  
     </div>
     <div class="col-sm-6 mb-3">
-        <input type="text" class="form-control form-control-user" id="id_cliente" name="cliente" placeholder="ID Cliente" required>  
-    </div>-->
+        <input type="hidden" class="form-control form-control-user" id="id_cliente" name="cliente" placeholder="ID Cliente" required>  
+    </div>
 
     <div class="card p-3 shadow-sm">
         <h5 class="mb-3 text-primary">Documentos Requeridos</h5>

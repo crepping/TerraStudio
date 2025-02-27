@@ -45,7 +45,7 @@
                     <a href="Vista_Regularizacion.php"><span class="fa fa-folder-open"></span> Vista Regularización</a>
                 </li>
                 <li>
-                    <a href="Ingreso_Fusion.php"><span class="fa fa-users"></span> Vista Fusión</a>
+                    <a href="Vista_Fusion.php"><span class="fa fa-users"></span> Vista Fusión</a>
                 </li>
                 <li>
                     <a href="Ingreso_subdivicion.php"><span class="fa fa-exchange"></span> Vista Subdivisión</a>

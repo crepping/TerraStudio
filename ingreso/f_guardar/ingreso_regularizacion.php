@@ -8,8 +8,8 @@ include "../funciones/config.php";
 $cnna = Conectar();
 
 // Sanitizar entradas para evitar inyección SQL
-$cod = mysqli_real_escape_string($cnna, $_POST['cod']);
-$cli = mysqli_real_escape_string($cnna, $_POST['cliente']);
+$cod = $_POST['cod'];
+$cli = $_POST['cliente'];
 $dir = mysqli_real_escape_string($cnna, $_POST['comentario']);
 $hoy = date("Y-m-d");
 
